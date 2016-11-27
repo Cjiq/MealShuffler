@@ -1,0 +1,22 @@
+#+OPTIONS: num:nil
+* MealShuffler
+** General Functionality
+*** Create Meals
+**** TODO Rank
+Every meal should be able to get a rank. The rank will show how
+common they are. In other words, 'Meatballs and pasta' is more common than 
+'Sirloin with garlic butter' and will therefore appear more frequently on
+a weekly basis.
+**** TODO Ingredients
+Every meal should have a list of ingredients to be able to create the
+shopping list. 
+*** Shuffle Meals over the week
+**** TODO Shuffle based on rank
+Every meal will be shuffled over the week. The standard settings should 
+create a full month of meal suggestions.
+*** Create shopping list
+**** TODO List for a week
+
+**** TODO List for a month
+**** TODO Calculate approximate cost
+*** Export as iCalender (.ics)
