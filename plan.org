@@ -20,8 +20,15 @@ shopping list.
 Every meal will be shuffled over the week. The standard settings should 
 create a full month of meal suggestions.
 *** Create shopping list
-**** TODO List for a week
-Shuffle any
-**** TODO List for a month
+**** TODO List for one day
+Combine all ingredients needed from all meals that day to create a list.
+**** TODO List for one week
+Just combine the one day list to form one for a week.
+**** TODO List for one month
+Just combine four weeks to make one month a proposals.
 **** TODO Calculate approximate cost
+Calculate the approximate cost of every meal and also the cost of the shopping list.
 *** Export as iCalender (.ics)
+**** TODO Add standard support
+ Make it possible to export your lists to your calendar.
+**** TODO Add a subscription option
