@@ -1,4 +1,6 @@
 * Intro
 MealShuffler is a small app thought to give meal suggestions based on a pool of different meals which you create yourself. It will pick one meal, at random, from the pool and then place it on a free day of the week. Thereby creating a random list of meal proposals for everyday of the week.
+
+Please read more in the project plan found [[http://mealshuffler.cjiq.tk][here.]]
 * LICENSE
 MIT
