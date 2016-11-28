@@ -32,3 +32,32 @@ Calculate the approximate cost of every meal and also the cost of the shopping l
 **** TODO Add standard support
  Make it possible to export your lists to your calendar.
 **** TODO Add a subscription option
+** Structure
+The app will be a two based solution consisting of client and a server. The client
+will be what the user interacts with. The client itself will communicate with the
+server by using api calls. 
+*** Front End
+The front end will be built using google's Angular 2 framework.
+*** Back End
+The back end will be built using Laravel. It will consist of a RESTful API which
+will handle all the CRUD actions.
+** Back End
+*** API
+- RESTful
+- CRUD
+*** Entities
++ Meal
+  - name
+  - description
+  - imageUrl
+  - ingredients
++ Ingredient
++ Day
+  - meal
++ Week
+  - days
++ Month
+  - weeks
++ Year
+  - months
+

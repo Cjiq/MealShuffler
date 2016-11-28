@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title></title>
-<!-- 2016-11-27 Sun 21:00 -->
+<!-- 2016-11-27 Sun 21:38 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="generator" content="Org-mode">
@@ -281,6 +281,93 @@ Make it possible to export your lists to your calendar.
 <li><a id="sec-" name="sec-"></a><span class="label label-primary TODO">TODO</span> Add a subscription option<br ></li></ul>
 </div>
 </div>
+<div id="outline-container-sec-" class="outline-3">
+<h3 id="sec-">Structure</h3>
+<div class="outline-text-3" id="text-">
+<p>
+The app will be a two based solution consisting of client and a server. The client
+will be what the user interacts with. The client itself will communicate with the
+server by using api calls. 
+</p>
+</div>
+<div id="outline-container-sec-" class="outline-4">
+<h4 id="sec-">Front End</h4>
+<div class="outline-text-4" id="text-">
+<p>
+The front end will be built using google's Angular 2 framework.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-" class="outline-4">
+<h4 id="sec-">Back End</h4>
+<div class="outline-text-4" id="text-">
+<p>
+The back end will be built using Laravel. It will consist of a RESTful API which
+will handle all the CRUD actions.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-" class="outline-3">
+<h3 id="sec-">Back End</h3>
+<div class="outline-text-3" id="text-">
+</div><div id="outline-container-sec-" class="outline-4">
+<h4 id="sec-">API</h4>
+<div class="outline-text-4" id="text-">
+<ul class="org-ul">
+<li>RESTful
+</li>
+<li>CRUD
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-" class="outline-4">
+<h4 id="sec-">Entities</h4>
+<div class="outline-text-4" id="text-">
+<ul class="org-ul">
+<li>Meal
+<ul class="org-ul">
+<li>name
+</li>
+<li>description
+</li>
+<li>imageUrl
+</li>
+<li>ingredients
+</li>
+</ul>
+</li>
+<li>Ingredient
+</li>
+<li>Day
+<ul class="org-ul">
+<li>meal
+</li>
+</ul>
+</li>
+<li>Week
+<ul class="org-ul">
+<li>days
+</li>
+</ul>
+</li>
+<li>Month
+<ul class="org-ul">
+<li>weeks
+</li>
+</ul>
+</li>
+<li>Year
+<ul class="org-ul">
+<li>months
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
 </div>
 </div><div class="col-md-3"><nav id="table-of-contents">
 <div id="text-table-of-contents" class="bs-docs-sidebar">
@@ -289,6 +376,8 @@ Make it possible to export your lists to your calendar.
 <ul class="nav">
 <li><a href="#sec-">Intro</a></li>
 <li><a href="#sec-">General Functionality</a></li>
+<li><a href="#sec-">Structure</a></li>
+<li><a href="#sec-">Back End</a></li>
 </ul>
 </li>
 </ul>
@@ -297,7 +386,7 @@ Make it possible to export your lists to your calendar.
 </div></div></div>
 <footer id="postamble" class="">
 <div><p class="author">Author: Erik Lundmark</p>
-<p class="date">Created: 2016-11-27 Sun 21:00</p>
+<p class="date">Created: 2016-11-27 Sun 21:38</p>
 <p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org-mode</a> 8.3.4)</p>
 </div>
 </footer>
